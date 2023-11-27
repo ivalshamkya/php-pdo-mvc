@@ -14,25 +14,25 @@ The `models` directory is intended for organizing your data models. Models encap
 
 The `views` directory holds your HTML templates. Views are rendered by controllers, and data can be passed to them for dynamic content.
 
-### 3. Controller
+### 3. Controllers
 
-The `Controller` class acts as the base controller for your application. It includes methods for rendering views and redirecting to other URLs. Controllers extend this base class.
+The `controllers` directory is where you organize your controller classes. Each controller handles specific routes and user interactions.
 
-### 4. Router
-
-The `Router` class handles the routing of incoming requests to the appropriate controller and action. It allows you to define routes easily and supports different HTTP methods.
-
-### 5. Database
-
-The `Database` class encapsulates the database connection logic using PDO. It provides methods for executing queries, binding parameters, and fetching results.
-
-### 6. Config
+### 4. Config
 
 The `Config` file contains constants for configuring your database connection and base URL. Update the values according to your environment.
 
-### 7. Controllers
+### 5. Controller
 
-The `controllers` directory is where you organize your controller classes. Each controller handles specific routes and user interactions.
+The `Controller` class acts as the base controller for your application. It includes methods for rendering views and redirecting to other URLs. Controllers extend this base class.
+
+### 6. Router
+
+The `Router` class handles the routing of incoming requests to the appropriate controller and action. It allows you to define routes easily and supports different HTTP methods.
+
+### 7. Database
+
+The `Database` class encapsulates the database connection logic using PDO. It provides methods for executing queries, binding parameters, and fetching results.
 
 ## Getting Started
 
