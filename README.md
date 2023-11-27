@@ -1,8 +1,4 @@
-Certainly! Below is a description for your PHP PDO MVC (Model-View-Controller) boilerplate:
-
----
-
-# PHP PDO MVC Boilerplate
+# Simple PHP PDO MVC Boilerplate
 
 ## Overview
 
