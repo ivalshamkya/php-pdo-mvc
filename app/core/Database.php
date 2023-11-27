@@ -1,5 +1,10 @@
 <?php
 
+namespace MyApp;
+
+use PDO;
+use PDOException;
+
 /**
  * Database Class
  * 

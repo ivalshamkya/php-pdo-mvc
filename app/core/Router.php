@@ -1,5 +1,7 @@
 <?php
 
+namespace MyApp;
+
 /**
  * Class Router
  *

@@ -1,5 +1,8 @@
 <?php
 
+use MyApp\Controller;
+use MyApp\Database;
+
 /**
  * HomeController Class
  *
@@ -12,7 +15,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        // Render the 'home' view.
-        $this->view('home');
+        $data['title'] = "Home";
+        $this->template('header', $data);
+        $this->view('home', $data);
+        $this->template('footer');
     }
 }
