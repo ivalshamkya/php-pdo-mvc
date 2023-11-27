@@ -6,27 +6,31 @@ This PHP boilerplate is a simple implementation of the Model-View-Controller (MV
 
 ## Components
 
-### 1. Router
+### 1. Models
 
-The `Router` class handles the routing of incoming requests to the appropriate controller and action. It allows you to define routes easily and supports different HTTP methods.
+The `models` directory is intended for organizing your data models. Models encapsulate the logic for interacting with the application's data, such as querying the database or performing specific business logic. This separation enhances maintainability and modularity in your PHP-PDO-MVC project.
 
-### 2. Controller
-
-The `Controller` class acts as the base controller for your application. It includes methods for rendering views and redirecting to other URLs. Controllers extend this base class.
-
-### 3. Database
-
-The `Database` class encapsulates the database connection logic using PDO. It provides methods for executing queries, binding parameters, and fetching results.
-
-### 4. Config
-
-The `Config` file contains constants for configuring your database connection and base URL. Update the values according to your environment.
-
-### 5. Views
+### 2. Views
 
 The `views` directory holds your HTML templates. Views are rendered by controllers, and data can be passed to them for dynamic content.
 
-### 6. Controllers
+### 3. Controller
+
+The `Controller` class acts as the base controller for your application. It includes methods for rendering views and redirecting to other URLs. Controllers extend this base class.
+
+### 4. Router
+
+The `Router` class handles the routing of incoming requests to the appropriate controller and action. It allows you to define routes easily and supports different HTTP methods.
+
+### 5. Database
+
+The `Database` class encapsulates the database connection logic using PDO. It provides methods for executing queries, binding parameters, and fetching results.
+
+### 6. Config
+
+The `Config` file contains constants for configuring your database connection and base URL. Update the values according to your environment.
+
+### 7. Controllers
 
 The `controllers` directory is where you organize your controller classes. Each controller handles specific routes and user interactions.
 
@@ -43,4 +47,18 @@ This boilerplate provides a foundation for building PHP web applications using t
 
 ---
 
-Feel free to customize this description based on any additional features or considerations specific to your boilerplate.
+## Contributions
+
+🎉 **Contributions Welcome!** 🎉
+
+We appreciate and encourage contributions to enhance and expand this PHP-PDO-MVC boilerplate. Whether you're fixing bugs, improving documentation, or adding new features, your efforts are valued.
+
+### How to Contribute
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure they align with the coding standards.
+4. Write tests for your changes, if applicable.
+5. Submit a pull request with a clear description of your changes.
+
+### Contributors
+A big thanks to all the contributors who have helped improve this PHP-PDO-MVC boilerplate!
