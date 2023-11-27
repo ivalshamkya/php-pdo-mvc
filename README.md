@@ -36,7 +36,7 @@ The `Database` class encapsulates the database connection logic using PDO. It pr
 
 ## Getting Started
 
-1. Define your routes in the `index.php` file using the `Router` class.
+1. Define your routes in the `App.php`.
 2. Create controller classes in the `controllers` directory, extending the `Controller` base class.
 3. Add methods in your controllers to handle different actions.
 4. Create corresponding views in the `views` directory.
