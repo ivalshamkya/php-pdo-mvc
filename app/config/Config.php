@@ -5,17 +5,17 @@
  *
  * Define the constants for the database connection.
  */
-define("DB_HOST", "localhost:3306");
-define("DB_USER", "root");
-define("DB_PASS", "");
-define("DB_NAME", "uliko");
+define("DB_HOST", "localhost"); // you can add specified port number ex: localhost:3306
+define("DB_USER", "username");
+define("DB_PASS", "password");
+define("DB_NAME", "database");
 
 /**
  * Base URL Configuration
  *
  * Define the base URL for the application.
  */
-define("BASEURL", "http://uliko.test");
+define("BASEURL", "http://localhost");
 
 /**
  * Environment Configuration
