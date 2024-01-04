@@ -1,8 +1,8 @@
-# Simple PHP PDO MVC Boilerplate
+# Simple PHP PDO MVC Template
 
 ## Overview
 
-This PHP boilerplate is a simple implementation of the Model-View-Controller (MVC) architectural pattern using PDO (PHP Data Objects) for database connectivity. It provides a structured and modular approach to building web applications, making it easier to manage and scale projects.
+This PHP template is a simple implementation of the Model-View-Controller (MVC) architectural pattern using PDO (PHP Data Objects) for database connectivity. It provides a structured and modular approach to building web applications, making it easier to manage and scale projects.
 
 ## Components
 
@@ -43,7 +43,7 @@ The `Database` class encapsulates the database connection logic using PDO. It pr
 5. Configure your database connection in the `Config` file.
 6. Start building your application by adding more controllers, views, and models.
 
-This boilerplate provides a foundation for building PHP web applications using the MVC pattern. It's recommended to expand upon it based on your project requirements, adding models, additional features, and improving security.
+This template provides a foundation for building PHP web applications using the MVC pattern. It's recommended to expand upon it based on your project requirements, adding models, additional features, and improving security.
 
 ---
 
@@ -51,7 +51,7 @@ This boilerplate provides a foundation for building PHP web applications using t
 
 🎉 **Contributions Welcome!** 🎉
 
-We appreciate and encourage contributions to enhance and expand this PHP-PDO-MVC boilerplate. Whether you're fixing bugs, improving documentation, or adding new features, your efforts are valued.
+We appreciate and encourage contributions to enhance and expand this PHP-PDO-MVC template. Whether you're fixing bugs, improving documentation, or adding new features, your efforts are valued.
 
 ### How to Contribute
 1. Fork the repository.
@@ -61,4 +61,4 @@ We appreciate and encourage contributions to enhance and expand this PHP-PDO-MVC
 5. Submit a pull request with a clear description of your changes.
 
 ### Contributors
-A big thanks to all the contributors who have helped improve this PHP-PDO-MVC boilerplate!
+A big thanks to all the contributors who have helped improve this PHP-PDO-MVC template!
